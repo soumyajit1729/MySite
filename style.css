@@ -1,0 +1,37 @@
+/*colours: 1 - #cfefc9
+		2 - #75d263
+		3 - #3b922a
+		4 - #14310e*/
+
+body{
+	background: #071201;
+}
+
+h1, h2,h3, h4, h5, h6, p {
+	color: #aed5ae;
+}
+
+#heading{
+	
+
+}
+img{
+	position: relative;
+	left: 50%;
+	transform: translate(-50%,0);
+}
+
+.section{
+	background:#0b1a04;
+	padding: 40px;
+	border-radius: 30px;
+	z-index: 1;
+	border: 1px solid #3b922a;
+	text-align: center;
+	transition-duration: 0.5s;
+}
+
+.section:hover{
+	transform: scale(1.01,1.01);
+	transition-duration: 0.5s;
+}
